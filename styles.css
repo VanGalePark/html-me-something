@@ -17,8 +17,8 @@ main {
 
 article {
   padding: 50px;
-  margin-left: 400px;
-  margin-right: 400px
+  margin-left: 300px;
+  margin-right: 300px
 }
 
 img {
@@ -29,15 +29,15 @@ img {
 }
 
 #stateParagraph {
-  margin-right: 600px;
-  margin-left: 600px;
+  margin-right: 400px;
+  margin-left: 400px;
   text-indent: 50px;
   font-size: 18px;
 }
 
 #imgExplain {
-  margin-left: 650px;
-  margin-right: 650px
+  margin-left: 450px;
+  margin-right: 450px
 }
 
 body {
