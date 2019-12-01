@@ -36,12 +36,11 @@ function init() {
     paragraphForState.innerHTML = `I realize that because I live in Kansas City, I will obviously have been to Kansas but I do actually go further
     into Kansas than Kansas City. I go to Spring Hill to see my grandma, and Ottawa to see my boyfriend. Yes, the drives are very long but judging
     other people's driving and music gets me through it. Ottawa is a cute little town.`
-    stateImage.src="./images/kansasCat.jpg"
-    stateImageTwo.src="./images/firstSnowKansas.jpeg"
-    explainImg.innerHTML = `Picture 1: Ms Keeper of the shoes!! Her name is Misty but I call her Fuzz. When she was a kitten she looked like a little
-    fuzz ball. Yes, this is a Kansas related picture because the little fuzz ball lives in Kansas and I had to go there to see her. Ottawa to be specific.
-    <br> Picture 2: This is where I first experienced this year's snow. Price Chopper... Yea so exciting! I was staying at my grandma's in Spring Hill
-    while my parents were enjoying Hawaii. (;-;)`
+    stateImage.src="./images/TsukitheCat.jpg"
+    stateImageTwo.src="./images/SpringHillSunset.jpg"
+    explainImg.innerHTML = `Picture 1: The cutest homework helper in the world! She is in Ottawa so this is related I swear! Her name is Tsuki, which
+    apparently means Moon in Japanese. She is a gray, fluffly, very lovey kitty! She will YELL at you (in meows) when she needs some attention.
+    <br> Picture 2: A very pretty sunset outside of my grandma's apartment.`
   })
   kansas.addEventListener("mouseover", function(event) {
     kansas.style.backgroundColor = "#0051BA"
@@ -82,6 +81,20 @@ function init() {
     illinois.style.backgroundColor = "#CD1041"
   })
 
+  colorado.addEventListener("click", function(event) {
+    state.innerHTML = "Estes Park, Colorado"
+    paragraphForState.innerHTML = `My family went to Estes Park 2 years ago or so to attend my cousin's wedding. We stayed in a hotel that kinda looked
+    like a log cabin and there was a mountain that looked like a lady laying down. It was a very beautiful place and a very beautiful wedding. There
+    apparently were bears there so you had to make sure the dumpster was closed so they didn't try to eat our trash! Man did I want to see a bear, but
+    I did not. :c`
+    stateImage.src="./images/mountainsColorado.jpg"
+    stateImageTwo.src="./images/onthewaytoColorado.jpg"
+    explainImg.innerHTML= `Picture 1: Some mountains and pretty clouds taken on a trip in Estes Park around and in the mountains. <br>Picture 2:
+    A picture of another car, some clouds, some grass. It was on the way to Estes Park, because we drove, and I guess I thought it was pretty.`
+  })
+  colorado.addEventListener("mouseover", function(event) {
+    colorado.style.backgroundColor = "#1F4E2E"
+  })
 }
 
 window.onload = init;
