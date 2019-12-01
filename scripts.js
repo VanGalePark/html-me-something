@@ -91,9 +91,9 @@ function init() {
     they didn't try to eat our trash! Man, did I want to see a bear, but I did not. :c On the trip to Colorado, I listened to A LOT of AJR,
     a band, specifically the song Sober Up. So now, whenever I listen to that song I think of the long, long car ride all the way to Colorado.`
     stateImage.src="./images/mountainsColorado.jpg"
-    stateImageTwo.src="./images/onthewaytoColorado.jpg"
+    stateImageTwo.src="./images/windmillsColorado.jpg"
     explainImg.innerHTML= `Picture 1: Some mountains and pretty clouds taken on a trip in Estes Park around and in the mountains. <br>Picture 2:
-    A picture of another car, some clouds, some grass. It was on the way to Estes Park, because we drove, and I guess I thought it was pretty.`
+    Some windmills that we saw as we were driving to Colorado. Yes, this is probably Kansas but I can't remember so it's fine!`
   })
   colorado.addEventListener("mouseover", function(event) {
     colorado.style.backgroundColor = "#1F4E2E"
