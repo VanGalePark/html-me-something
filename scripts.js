@@ -32,7 +32,7 @@ function init() {
   })
 
   kansas.addEventListener("click", function(event) {
-    state.innerHTML = 'Ottawa, Kansas & Spring Hill, Kansas'
+    state.innerHTML = 'Ottawa, Kansas &amp Spring Hill, Kansas'
     paragraphForState.innerHTML = `I realize that because I live in Kansas City, I will obviously have been to Kansas but I do actually go further
     into Kansas than Kansas City, Kansas. I go to Spring Hill to see my grandma, and Ottawa to see my boyfriend. Yes, the drives are very long but judging
     other people's driving and music gets me through it. Ottawa is a cute little town with, as far as I've seen, very nice people. My boyfriend and I
@@ -49,7 +49,7 @@ function init() {
   })
 
   florida.addEventListener("click", function(event) {
-    state.innerHTML = "Merrit Island, Florida & Orlando, Florida"
+    state.innerHTML = "Merrit Island, Florida &amp Orlando, Florida"
     paragraphForState.innerHTML = `I went to Florida every year or so to go see my uncle, aunt, and three cousins. It was always really really fun.
     The last time I went, last year, was the most fun. My amazing uncle and aunt payed for me to go to Universal and I got to ride all the Harry Potter
     rides I wanted, drank some butterbeer, and bought a wand. Yes, the wand was extremely overpriced, but it was so worth it. I'm a big Harry Potter
@@ -117,6 +117,39 @@ function init() {
   })
   oregon.addEventListener("mouseover", function(event) {
     oregon.style.backgroundColor = "#FEE123"
+  })
+
+  california.addEventListener("click", function(event) {
+    state.innerHTML = "Northern California"
+    paragraphForState.innerHTML = `I never actually stayed in California like the other states, but I plan to someday, when visiting Oregon my uncle
+    and my dad planned to go see the redwoods. Did we actually get that far? No. Did we have fun anyways? Yes. We took this giant, 12 or 15 seat
+    van and went from Ashland to about Cresent City. We ate in a little resturaunt by the ocean and some seals. We made it to this giant tree
+    tourist site thing that was empty. Nobody was there. All it was, was driving through a very thick tree. Remember, we have a giant van.
+    My uncle and dad made it through the tree with expert coordination and only a mirror got pushed back. They were so proud of themselves, giant grins
+    during it and after. My dad kept laughing about it hours, days later because if we had scratched or destroyed the van, the next people that were
+    supposed to use it RIGHT AFTER US would just be out of luck. Also on the way to Oregon we stopped in San Fransisco, I got to see the Golden Gate
+    Bridge! I mean, I only saw it from the view of a plane window but it was still really cool!`
+    stateImage.src="./images/Seals.jpg"
+    stateImageTwo.src="./images/MyFrigginUncle.jpg"
+    explainImg.innerHTML = `Picture 1: The seals on the ocean, just chillin<br> Picture 2: My uncle in the front seat grinning his butt off about
+    how he and my dad managed to get this giant 15 seater van through this tree.`
+  })
+  california.addEventListener("mouseover", function(event) {
+    california.style.backgroundColor = "#b78727"
+  })
+
+  michigan.addEventListener("click", function(event) {
+    state.innerHTML = "Michigan"
+    paragraphForState.innerHTML = `This was in 2013 so please understand that I don't remember much at all. All that I DO remember is we were visiting
+    my brother and my mom decided that, in January, we should go to Lake Michigan. It was very very cold. Also, while we were in the hotel we played
+    minecraft.`
+    stateImage.src="./images/Michigan.JPG"
+    stateImageTwo.src="./images/ChildreninMichigan.jpg"
+    explainImg.innerHTML = `Picture 1: A picture I took (and slightly edited) with my Nexus 10 Tablet. Yes, I took a tablet to a lake. I was 12. <br>
+    Picture 2: From left to right; my brother RJ, me, my brother Seth, my sister Sarah. In front of the lake. in the cold.`
+  })
+  michigan.addEventListener("mouseover", function(event) {
+    michigan.style.backgroundColor = "#FBEC5D"
   })
 
 }
