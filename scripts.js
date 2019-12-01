@@ -11,7 +11,7 @@ function init() {
   florida = document.getElementById("florida")
   illinois = document.getElementById("illinois")
   colorado = document.getElementById("colorado")
-  georgia = document.getElementById("georgia")
+  georgia = document.getElementById("oregon")
   california = document.getElementById("california")
   michigan = document.getElementById("michigan")
 
@@ -34,8 +34,10 @@ function init() {
   kansas.addEventListener("click", function(event) {
     state.innerHTML = 'Ottawa, Kansas & Spring Hill, Kansas'
     paragraphForState.innerHTML = `I realize that because I live in Kansas City, I will obviously have been to Kansas but I do actually go further
-    into Kansas than Kansas City. I go to Spring Hill to see my grandma, and Ottawa to see my boyfriend. Yes, the drives are very long but judging
-    other people's driving and music gets me through it. Ottawa is a cute little town.`
+    into Kansas than Kansas City, Kansas. I go to Spring Hill to see my grandma, and Ottawa to see my boyfriend. Yes, the drives are very long but judging
+    other people's driving and music gets me through it. Ottawa is a cute little town with, as far as I've seen, very nice people. My boyfriend and I
+    always go eat at the Taco Bell down there and the people actually <em>recognize</em> him! And eventually they'll start to recognize me!! I'm
+    not used to this small town life.`
     stateImage.src="./images/TsukitheCat.jpg"
     stateImageTwo.src="./images/SpringHillSunset.jpg"
     explainImg.innerHTML = `Picture 1: The cutest homework helper in the world! She is in Ottawa so this is related I swear! Her name is Tsuki, which
@@ -83,10 +85,11 @@ function init() {
 
   colorado.addEventListener("click", function(event) {
     state.innerHTML = "Estes Park, Colorado"
-    paragraphForState.innerHTML = `My family went to Estes Park 2 years ago or so to attend my cousin's wedding. We stayed in a hotel that kinda looked
-    like a log cabin and there was a mountain that looked like a lady laying down. It was a very beautiful place and a very beautiful wedding. There
-    apparently were bears there so you had to make sure the dumpster was closed so they didn't try to eat our trash! Man did I want to see a bear, but
-    I did not. :c`
+    paragraphForState.innerHTML = `My family went to Estes Park 2 years ago or so, in late July, to attend my cousin's wedding. We stayed in an inn that kinda looked
+    like a log cabin, it was very homey. There was a mountain that looked like a lady laying down, it was a little weird but she was a very beautiful woman hehe.
+    It was a very beautiful place and a very beautiful wedding. There apparently were bears there so you had to make sure the dumpster was closed so
+    they didn't try to eat our trash! Man did I want to see a bear, but I did not. :c On the trip to Colorado I listened to A LOT of AJR,
+    a band, specifically the song Sober Up. So now, whenever I listen to that song I think of the long long car ride all the way to Colorado.`
     stateImage.src="./images/mountainsColorado.jpg"
     stateImageTwo.src="./images/onthewaytoColorado.jpg"
     explainImg.innerHTML= `Picture 1: Some mountains and pretty clouds taken on a trip in Estes Park around and in the mountains. <br>Picture 2:
@@ -95,6 +98,27 @@ function init() {
   colorado.addEventListener("mouseover", function(event) {
     colorado.style.backgroundColor = "#1F4E2E"
   })
+
+  oregon.addEventListener("click", function(event) {
+    state.innerHTML = "Ashland, Oregon"
+    paragraphForState.innerHTML = `Another family vacation! We went to Oregon to visit my great grandma because she was turning 100 years old!
+    While I was there I met my dad's cousisn John and a woman I forget the name of. The woman has 3 daughters and I met 2 of them at my great
+    grandma's birthday celebration. Maya, and another one I can't remember the name of. They are both very very fun girls. We all went out to
+    dinner after the celebration to help people catch up because my dad's side of the family doesn't gather very often. After that dinner, I
+    eneded up going home with Maya, her sister, and her mom, and we had a very fun sleep over and watched Oceans 8. They were kinda like crackheads.
+    It was very fun. In the morning I met the third daughter, she is in college and had come home for some laundry and momma time. She is a very
+    good artist and she seemed like an equally fun person. Their whole family just was great, very outgoing. We stayed in a home on a hill in
+    a pretty secluded area. Ashland isn't a very big area. You could hear wolves outside howling, and there were 3 trash bins. One trash bin was for normal trash,
+    one for recycling, and another for compost. Oregon was the best state I've been to so far, it was absolutely beautiful and super green!`
+    stateImage.src="./images/oregonMountains.jpg"
+    stateImageTwo.src="./images/oregonSunset.jpg"
+    explainImg.innerHTML = `Picture 1: A sunrise reflecting on the clouds and mountains in the distance.
+     <br>Picture 2: The view of a sunset outside of the house we were staying in. Oregon is such a beautiful place.`
+  })
+  oregon.addEventListener("mouseover", function(event) {
+    oregon.style.backgroundColor = "#FEE123"
+  })
+
 }
 
 window.onload = init;
